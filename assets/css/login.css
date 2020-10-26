@@ -1,0 +1,57 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+ol, ul {
+list-style: none;
+}
+html,body{
+    height: 100%;
+}
+body{
+    overflow: hidden;
+    background: url('../images/login_bg.jpg') no-repeat;
+    background-size: cover;
+}
+/* logo样式 */
+.log{
+    width: 1200px;
+    margin: 20px auto 0;
+}
+
+.register,
+.login{
+    position: absolute;
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+}
+.register{
+    background-color: pink;
+}
+.title{
+    text-align: center;
+    margin: 20px auto;
+}
+.layui-input-block{
+    margin: 0 30px 10px;
+    position: relative;
+}
+a{
+    float: right;
+}
+input{
+ text-indent: 20px;
+
+}
+i{
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
