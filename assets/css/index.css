@@ -1,0 +1,17 @@
+.layui-footer{
+    text-align: center;
+}
+i{
+    margin-right: 6px;
+}
+dd{
+    text-indent: 10px;
+}
+.avatar{
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 50%;
+}
