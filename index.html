@@ -20,8 +20,8 @@
         <ul class="layui-nav layui-layout-right">
           <li class="layui-nav-item">
             <a href="javascript:;">
-              <span class="avatar"></span>
-              <img src="http://t.cn/RCzsdCq" class="layui-nav-img" />
+              <span class="text-avatar">A</span>
+              <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
               <span class="username">贤心</span>
             </a>
             <dl class="layui-nav-child">
@@ -30,7 +30,7 @@
               <dd><a href="">更换头像</a></dd>
             </dl>
           </li>
-          <li class="layui-nav-item"><a href="">退了</a></li>
+          <li class="layui-nav-item"><a href="javascript:;" class="logout">退了</a></li>
         </ul>
       </div>
 
@@ -43,8 +43,9 @@
             lay-shrink="all"
           >
             <li class="layui-nav-item">
-              <span class="avatar"></span>
-              <img src="http://t.cn/RCzsdCq" class="layui-nav-img" />
+              <span class="text-avatar">A</span>
+              <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+              欢迎!
               <span class="username">贤心</span>
             </li>
             <li class="layui-nav-item layui-this">
@@ -121,12 +122,16 @@
         张美娇制作 - 底部固定区域
       </div>
     </div>
+    <script src="./assets/lib/jquery.js"></script>
     <script src="./assets/lib/layui/layui.all.js"></script>
-    <script>
+    <!-- <script>
       //JavaScript代码区域
       layui.use("element", function () {
         var element = layui.element;
       });
-    </script>
+    </script> -->
+
+    <script src="./assets/js/common.js"></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>

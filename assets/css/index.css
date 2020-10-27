@@ -7,11 +7,18 @@ i{
 dd{
     text-indent: 10px;
 }
-.avatar{
+.text-avatar{
+    text-align: center;
     width: 35px;
     height: 35px;
+    line-height: 35px;
     background-color: #fff;
+    color: black;
     vertical-align: middle;
     display: inline-block;
     border-radius: 50%;
+    margin-right: 8px;
+}
+.layui-nav-img{
+    display: none;
 }
