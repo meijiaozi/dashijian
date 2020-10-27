@@ -22,3 +22,7 @@ dd{
 .layui-nav-img{
     display: none;
 }
+.layui-body{
+    padding: 10px;
+    background-color: #eee;
+}
